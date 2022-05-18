@@ -7,4 +7,5 @@
     <string name="nomeproduto1">DVD - Ever After High</string>
     <string name="estoqueproduto1">Estoque : 3</string>
     <string name="quantidadeproduto1">Quantidade : </string>
+    <string name="test">Quantidade : </string>
 </resources>
