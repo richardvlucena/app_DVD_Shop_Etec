@@ -1,5 +1,5 @@
 # GIF of App running 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/95677248/168959309-1cefeccd-cd39-4218-a24f-3733e9553581.gif" width="300px" />
+<img src="https://user-images.githubusercontent.com/95677248/168959309-1cefeccd-cd39-4218-a24f-3733e9553581.gif" width="200px" />
 </div>
