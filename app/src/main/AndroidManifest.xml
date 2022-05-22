@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.04_26">
         <activity
+            android:name=".tela5"
+            android:exported="false" />
+        <activity
             android:name=".tela4"
             android:exported="false" />
         <activity

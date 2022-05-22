@@ -2,14 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tela3"
+    android:id="@+id/tela5"
     android:layout_width="match_parent"
-    android:background="@color/darkc"
     android:layout_height="match_parent"
-    tools:context=".tela3">
+    android:background="@color/darkc"
+    tools:context=".tela5">
 
     <ImageView
-        android:id="@+id/produtobarbie"
+        android:id="@+id/produtohunted"
         android:layout_width="189dp"
         android:layout_height="264dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,13 +17,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.271"
-        app:srcCompat="@drawable/barbie" />
+        app:srcCompat="@drawable/hunted" />
 
     <TextView
         android:id="@+id/nomeproduto4"
-        android:layout_width="369dp"
-        android:layout_height="57dp"
-        android:text="@string/nomeproduto2"
+        android:layout_width="372dp"
+        android:layout_height="53dp"
+        android:text="@string/nomeproduto4"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25sp"
@@ -38,7 +38,7 @@
         android:id="@+id/estoqueproduto4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/estoqueproduto2"
+        android:text="@string/estoqueproduto4"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="22sp"
