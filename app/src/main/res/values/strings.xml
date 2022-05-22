@@ -4,8 +4,12 @@
     <string name="btn_comprar">Comprar Agora</string>
     <string name="btn_carrinho">Adicionar Ao Carrinho</string>
     <string name="btn_interesse">Interesse</string>
+
     <string name="nomeproduto1">DVD - Ever After High</string>
     <string name="estoqueproduto1">Estoque : 3</string>
     <string name="quantidadeproduto1">Quantidade : </string>
-    <string name="test">Quantidade : </string>
+
+    <string name="nomeproduto2">DVD - Barbie Eo Castelo de Diamantes</string>
+    <string name="estoqueproduto2">Estoque : 1</string>
+
 </resources>

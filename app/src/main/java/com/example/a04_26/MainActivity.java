@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
         btnbarbie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent tela2 = new Intent(MainActivity.this, tela2.class);
-                startActivity(tela2);
+                Intent tela3 = new Intent(MainActivity.this, tela3.class);
+                startActivity(tela3);
             }
         });
     }
