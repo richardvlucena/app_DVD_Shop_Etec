@@ -24,18 +24,6 @@
 
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="144dp"
-        android:layout_height="222dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.115"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.774"
-        app:srcCompat="@drawable/frozen" />
-
-    <ImageView
         android:id="@+id/imageView6"
         android:layout_width="144dp"
         android:layout_height="222dp"
@@ -70,5 +58,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.116" />
+
+    <Button
+        android:id="@+id/btnfrozen"
+        android:layout_width="153dp"
+        android:layout_height="217dp"
+        android:background="@drawable/frozen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

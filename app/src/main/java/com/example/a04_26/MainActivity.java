@@ -13,7 +13,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnbuttonsair, btneverafterhigh,btnbarbie;
+    private Button btnbuttonsair, btneverafterhigh,btnbarbie,btnfrozen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         btneverafterhigh=findViewById(R.id.btneverafterhigh);
 
         btnbarbie=findViewById(R.id.btnbarbie);
+
+        btnfrozen=findViewById(R.id.btnfrozen);
 
         btnbuttonsair=findViewById(R.id.btnbuttonsair);
 
@@ -47,6 +49,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(tela3);
             }
         });
+
+        btnfrozen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tela4 = new Intent(MainActivity.this, tela4.class);
+                startActivity(tela4);
+            }
+        });
+
     }
 
     @Override

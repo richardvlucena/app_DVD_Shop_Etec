@@ -9,7 +9,7 @@
     tools:context=".tela3">
 
     <ImageView
-        android:id="@+id/produtobarbie"
+        android:id="@+id/produtofrozen"
         android:layout_width="189dp"
         android:layout_height="264dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/barbie" />
 
     <TextView
-        android:id="@+id/nomeproduto1"
+        android:id="@+id/nomeproduto3"
         android:layout_width="369dp"
         android:layout_height="57dp"
         android:text="@string/nomeproduto2"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.042" />
 
     <TextView
-        android:id="@+id/estoqueproduto1"
+        android:id="@+id/estoqueproduto3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/estoqueproduto2"

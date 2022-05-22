@@ -2,11 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tela2"
+    android:id="@+id/tela4"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="@color/darkc"
-    tools:context=".tela2">
+    android:layout_height="match_parent"
+    tools:context=".tela4">
+
+
 
     <ImageView
         android:id="@+id/produtofrozen"
@@ -17,13 +19,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.271"
-        app:srcCompat="@drawable/everafterhigh" />
+        app:srcCompat="@drawable/frozen" />
 
     <TextView
         android:id="@+id/nomeproduto3"
-        android:layout_width="372dp"
-        android:layout_height="53dp"
-        android:text="@string/nomeproduto1"
+        android:layout_width="369dp"
+        android:layout_height="57dp"
+        android:text="@string/nomeproduto3"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25sp"
@@ -38,7 +40,7 @@
         android:id="@+id/estoqueproduto3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/estoqueproduto1"
+        android:text="@string/estoqueproduto3"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="22sp"
